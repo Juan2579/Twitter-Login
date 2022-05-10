@@ -63,7 +63,7 @@
     font-size: 1.4rem;
 }
 .buttons_container .button_phone{
-    padding: 10px 13px;
+    padding: 12px;
     font-size: 1.33rem;
     background-color: var(--secundary-color);
     color: var(--primary-color);
