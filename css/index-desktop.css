@@ -1,0 +1,46 @@
+.header_container{
+    display: none;
+}
+
+.main_container{
+    display: flex;
+    flex-direction: row-reverse;
+    padding-top: 0;
+}
+.main_info{
+    padding-top: 60px;
+    padding-left: 40px;
+}
+.titles_container img{
+    display: block;
+    width: 42px;
+    height: 42px;
+}
+.titles_container h1{
+    width: 90%;
+    font-size: 6.2rem;
+    line-height: 9rem
+}
+.titles_container h2{
+    font-size: 3.1rem;
+    padding-bottom: 20px;
+}
+.main_image{
+    padding-top: 0;
+    width: 100%;
+}
+.main_image div{
+    position: relative;
+}
+.main_image .image_blue{
+    height: 1007px;
+    object-fit: cover;
+}
+.main_image .logo_main{
+    width: 430px;
+    height: 350px;
+}
+
+.footer_container{
+    height: 72px;
+}

@@ -27,6 +27,9 @@
     flex-direction: column;
     margin-bottom: 20px;
 }
+.titles_container img{
+    display: none
+}
 .titles_container h1{
     color: var(--primary-color);
     font-size: 4rem;
@@ -81,11 +84,13 @@
 
 .main_info span{
     display: flex;
+    width: max-content;
     justify-content: flex-start;
     color: var(--primary-color);
     font-size: 1.8rem;
 }
 .buttons_container p{
+    width: 300px;
     text-align: start;
     font-size: 1rem;
     line-height: 1.1rem;
@@ -146,6 +151,7 @@
 .footer_container{
     width: 100%;
     height: auto;
+    background-color: #000;
 }
 .footer_content{
     display: flex;
